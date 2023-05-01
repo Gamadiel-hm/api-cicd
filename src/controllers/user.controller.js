@@ -1,5 +1,6 @@
 export const registerUser = (req, res) => {
-  res.json({ ok: 'register' });
+  const body = req.body;
+  res.json({ ok: 'register', body });
 };
 
 export const loginUser = (req, res) => {
