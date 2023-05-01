@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Echo the message
         run: echo "hola Crack"
+      - name: Dime la fecha
+        run: date
+      - name: Carpetas directorio
+        run: ls -l
