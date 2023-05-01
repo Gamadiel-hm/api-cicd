@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Echo the message
         run: echo "hola Crack"
+      - name: Say data actually
+        run: data
+      - name: list folders
+        run: ls -l
